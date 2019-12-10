@@ -1,4 +1,4 @@
-использование: linearcode_n_errors.py mode param
+использование: executor.py mode param
 
 режимы работы(mode): {gencode,coder,decoder}
 
@@ -7,7 +7,7 @@ param: -h - помощь
 
 режим gencode (создает линейный код и декодирует вектор)
 
-использование: linearcode_n_errors.py gencode [-h] [--out-file OUT] r n t
+использование: executor.py gencode [-h] [--out-file OUT] r n t
 
 обязательные аргументы:
 r: число информационных символов
@@ -21,7 +21,7 @@ t: число исправляемых ошибок
 
   режжим coder: кодирует сообщение длины к и добавляет вектор ошибок
 
-использование: linearcode_n_errors.py coder [-h] [-e E] inputfile m
+использование: executor.py coder [-h] [-e E] inputfile m
 
 обязательные аргументы:
 
@@ -37,7 +37,7 @@ m: сообщение
 
   режим decoder: декодирует сообщение длины n и вычитает вектор ошибок
 
-использование: linearcode_n_errors.py decoder [-h] inputfile y
+использование: executor.py decoder [-h] inputfile y
 
 обязательные аргументы:
 
