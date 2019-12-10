@@ -1,4 +1,5 @@
 использование: linearcode_n_errors.py mode param
+
 режимы работы(mode): {gencode,coder,decoder}
 param: -h - помощь
 режим gencode (создает линейный код и декодирует вектор)
